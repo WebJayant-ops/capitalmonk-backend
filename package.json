@@ -1,0 +1,27 @@
+{
+  "name": "trade-niche-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "babel-node": "babel-node --presets='@babel/preset-env'",
+    "start": "nodemon --exec npm run babel-node -- src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divyesh Mavadiya",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.26.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.2",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7"
+  }
+}
